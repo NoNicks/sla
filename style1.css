@@ -30,7 +30,7 @@ header h1 {
   color: #fff;
   text-decoration: none;
 }
-  
+  /*Cursor sobre a barra*/
 .Barra a:hover {
     text-decoration: underline;
 }
@@ -62,6 +62,8 @@ header h1 {
     width: 40%;
     height: 30%;
 }
+
+/*celular*/
 @media only screen and (max-width: 400px) {
   header h1{
     font-size: 18px;
