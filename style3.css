@@ -1,0 +1,77 @@
+body, h1, p, div, img {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+  
+  /* Estilos para o texto do cabeçalho */
+header h1 {
+    font-size: 40px;
+    color: maroon;
+}
+  
+  /* Estilos para a barra de navegação */
+.Barra {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+ /* Estilos para os links */
+ .Barra a {
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+}
+  
+.Barra a:hover {
+    text-decoration: underline;
+}
+  
+  /* Estilos para o parágrafo */
+.para {
+    margin: 20px;
+    text-align: justify;
+    padding-right: 25%;
+    padding-left: 25%;
+    font-size: 24px;
+}
+.para2 {
+    margin: 20px;
+    text-align: justify;
+    padding-right: 25%;
+    padding-left: 25%;
+    font-size: 24px;
+}
+  /* Estilos para as imagens */
+.imagens {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    border: 3px;
+    border-color: black;
+}
+.imagens img {
+    width: 20vw;
+    height: 30vh;
+}
+@media only screen and (max-width: 400px) {
+  .para,.para2{
+    font-size: 12px;
+  }
+  .para,.para2{
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+  .imagens img{
+    width: 30vw;
+    height: 10vh;
+}
+}
